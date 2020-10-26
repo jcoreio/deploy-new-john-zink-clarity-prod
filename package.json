@@ -1,0 +1,29 @@
+{
+  "name": "@jcoreio/deploy-new-john-zink-clarity-prod",
+  "version": "0.0.0-development",
+  "description": "Deploy production instance of Clarity for John Zink, new version in Oct 2020",
+  "repository": "https://github.com/jcoreio/deploy-new-john-zink-clarity-prod",
+  "author": "Andy Edwards",
+  "private": true,
+  "scripts": {
+    "lint": "eslint *.js",
+    "prettier": "prettier --write *.{js,json,md}",
+    "deploy": "deploy-clarity deploy"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && yarn lint"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.12.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.0",
+    "prettier": "^2.1.2"
+  }
+}

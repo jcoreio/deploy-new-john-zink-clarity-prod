@@ -1,0 +1,24 @@
+version: 2
+jobs:
+  deploy:
+    docker:
+      - image: circleci/node:12.16
+
+    steps:
+      - checkout
+
+      - run:
+          name: Setup NPM Token
+          command: |
+            yarn config set registry "https://registry.npmjs.org/"
+            echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+            echo "registry=https://registry.npmjs.org/" >> .npmrc
+
+      - run:
+          name: Install Dependencies
+          command: yarn install --frozen-lockfile
+
+      - run:
+          name: deploy
+          command: yarn deploy --golive
+          no_output_timeout: 30m
