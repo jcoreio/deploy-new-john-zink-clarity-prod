@@ -79,10 +79,10 @@
     table "^5.2.1"
     verror "^1.10.0"
 
-"@jcoreio/deploy-clarity@7.3.1":
-  version "7.3.1"
-  resolved "https://registry.npmjs.org/@jcoreio/deploy-clarity/-/deploy-clarity-7.3.1.tgz#8e6a54af54fa52ebbcaf341600f9ebcaf246ecd2"
-  integrity sha512-aei+NcwzJY2JZLac8nmQ/qysrqFsoK66MbQmHXB8o7tlclkdmbF5PsY9fJXBP577NgdPnZohcd1BRyhfpWh0pQ==
+"@jcoreio/deploy-clarity@7.4.1":
+  version "7.4.1"
+  resolved "https://registry.npmjs.org/@jcoreio/deploy-clarity/-/deploy-clarity-7.4.1.tgz#53829215fadde5890ae441180e4569d4212cb2c5"
+  integrity sha512-6ym+EBIz1oI2dlP2rWWDbh6ATcPHaiilYwGLQMp6nCkbSSyBuOp3Xt0iYiRjODo+o7JOl2Eo2JzC+7z0hOkMQg==
   dependencies:
     "@jcoreio/aws-sdk-async-iterables" "^2.4.0"
     "@jcoreio/cfn-certificate-provider" "^1.0.0"
@@ -105,7 +105,7 @@
     is-domain-name "^1.0.1"
     javascript-time-ago "^2.0.13"
     lodash "^4.17.15"
-    mindless-route53 "^1.2.0"
+    mindless-route53 "^1.2.4"
     mindless-route53-cloudformation "^1.2.0"
     node-fetch "^2.6.0"
     open "^7.1.0"
@@ -1970,7 +1970,7 @@ mindless-route53-cloudformation@^1.2.0:
     mindless-route53 "^1.0.1"
     yargs "^13.3.0"
 
-mindless-route53@^1.0.1, mindless-route53@^1.2.0, mindless-route53@^1.2.1:
+mindless-route53@^1.0.1, mindless-route53@^1.2.1, mindless-route53@^1.2.4:
   version "1.2.4"
   resolved "https://registry.npmjs.org/mindless-route53/-/mindless-route53-1.2.4.tgz#3c24ec232fc7da3db4812bb35c10129cdfe7b377"
   integrity sha512-vnrDJuO4MglWeXN49ZGl2jwxzH1DDMTbwWope7PS79rfnyH0X4iDK5tyicgh7e10UzBj2WEUOCOGyoqD3UY/mQ==
