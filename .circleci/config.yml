@@ -22,3 +22,9 @@ jobs:
           name: deploy
           command: yarn deploy --golive
           no_output_timeout: 30m
+
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - deploy
