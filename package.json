@@ -27,6 +27,6 @@
     "prettier": "^2.1.2"
   },
   "dependencies": {
-    "@jcoreio/deploy-clarity": "7.4.1"
+    "@jcoreio/deploy-clarity": "7.5.1"
   }
 }

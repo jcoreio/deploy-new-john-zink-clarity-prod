@@ -79,15 +79,15 @@
     table "^5.2.1"
     verror "^1.10.0"
 
-"@jcoreio/deploy-clarity@7.4.1":
-  version "7.4.1"
-  resolved "https://registry.npmjs.org/@jcoreio/deploy-clarity/-/deploy-clarity-7.4.1.tgz#53829215fadde5890ae441180e4569d4212cb2c5"
-  integrity sha512-6ym+EBIz1oI2dlP2rWWDbh6ATcPHaiilYwGLQMp6nCkbSSyBuOp3Xt0iYiRjODo+o7JOl2Eo2JzC+7z0hOkMQg==
+"@jcoreio/deploy-clarity@7.5.1":
+  version "7.5.1"
+  resolved "https://registry.npmjs.org/@jcoreio/deploy-clarity/-/deploy-clarity-7.5.1.tgz#b8a6c2e4ab2169a0828b69961f67ac3b4caa5370"
+  integrity sha512-GK5Dg9b2UMbXSe0GrPG/n68e38wOet6BL0rgVDG+vL5LZ4S1fwamWLXydjBlNLRBruwPxlNGZ2LPbo9/U6j99w==
   dependencies:
     "@jcoreio/aws-sdk-async-iterables" "^2.4.0"
     "@jcoreio/cfn-certificate-provider" "^1.0.0"
     "@jcoreio/cloudformation-tools" "^2.14.2"
-    "@jcoreio/deploy-historian-dbs" "^3.4.0"
+    "@jcoreio/deploy-historian-dbs" "^3.5.0"
     "@jcoreio/poll" "^2.0.0"
     "@jcoreio/require-env" "^1.1.12"
     "@jcoreio/sparkplug-client" "^5.1.0"
@@ -118,10 +118,10 @@
     typescript-validators "^1.0.0"
     yargs "^15.4.1"
 
-"@jcoreio/deploy-historian-dbs@^3.4.0":
-  version "3.4.0"
-  resolved "https://registry.npmjs.org/@jcoreio/deploy-historian-dbs/-/deploy-historian-dbs-3.4.0.tgz#3e520f6cb6fcfc77c02b0d9ae734bdfb97d153e2"
-  integrity sha512-FLy5K4KKe9oyHL/lbozqd3QCNz/MCsrlPcoLajNa9LALnGi3vIH6W2bxCL1bwQKcM0QBsmcdSTReBSPQAuZRgw==
+"@jcoreio/deploy-historian-dbs@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.npmjs.org/@jcoreio/deploy-historian-dbs/-/deploy-historian-dbs-3.5.0.tgz#1afb52e20c700925451c21b4956d42e982279b28"
+  integrity sha512-yUPXK6Js+FZIwCAriOMc6UOAFbXzM4gfJgXs41n/ucnLDKAVCHoRr5t/JNCiOU43KqafxvnAndRMBYRbp/JXNw==
   dependencies:
     "@jcoreio/cloudformation-tools" "^2.14.1"
     "@jcoreio/script-tools" "^2.1.1"
